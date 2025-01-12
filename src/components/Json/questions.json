@@ -525,27 +525,6 @@
         ]
     },
     {
-        "pregunta": "Aplicamos seguridad en Meta4objects a través de:",
-        "respuestas": [
-            {
-                "opcion": "Filtros dinámicos",
-                "isCorrect": false
-            },
-            {
-                "opcion": "Filtros estáticos",
-                "isCorrect": false
-            },
-            {
-                "opcion": "Todas las respuestas son falsas",
-                "isCorrect": true
-            },
-            {
-                "opcion": "Máscaras",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
         "pregunta": "¿Qué se genera cuando se crea una consulta?",
         "respuestas": [
             {
@@ -1058,11 +1037,11 @@
             },
             {
                 "opcion": "La tabla hija",
-                "isCorrect": false
+                "isCorrect": true
             },
             {
                 "opcion": "Pertenece a las dos tablas",
-                "isCorrect": true
+                "isCorrect": false
             },
             {
                 "opcion": "No pertenece a ninguna tabla",

@@ -1,0 +1,23 @@
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  height: 100vh;
+  overflow: auto;
+}
+.App::-webkit-scrollbar {
+  width: 5px;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.App::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.App::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}

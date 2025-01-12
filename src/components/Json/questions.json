@@ -1,0 +1,1157 @@
+[
+    {
+        "pregunta": "Los menús realizados con el Diseñador de Menús:",
+        "respuestas": [
+            {
+                "opcion": "Se asocian directamente con las presentaciones que se desean levantar.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se asocian con tareas.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Se asocian con los meta4objects, porque son los objetos que generan lógica de negocio.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se asocian con las tablas lógicas, porque son las que contienen datos.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuando se crean Conceptos en un Meta4Object, al generar un informe de él se convierten en:",
+        "respuestas": [
+            {
+                "opcion": "Conceptos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Métodos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Campos",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Propiedades",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "El Action que permite ejecutar una tarea se denomina:",
+        "respuestas": [
+            {
+                "opcion": "Action_Message",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_Method",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_Set",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_bp",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Cómo se llama el Action que permite levantar una presentación?",
+        "respuestas": [
+            {
+                "opcion": "Extends",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Action_call",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_set",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_message",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Sobrescritura de nodo y de regla son acciones que se realizan en:",
+        "respuestas": [
+            {
+                "opcion": "Mapeos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Herencia",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Barra de tareas del desarrollador",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Proyectos",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los meta4objects son objetos que encapsulan:",
+        "respuestas": [
+            {
+                "opcion": "Todas las respuestas son correctas.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Campos, Propiedades, Conceptos y Métodos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Ítems ejecutables.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Datos y procesos.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La estructura lógica de un informe está formada por:",
+        "respuestas": [
+            {
+                "opcion": "Solamente por contenedores y campos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Secciones, contenedores y campos.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Solamente por secciones y contenedores.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Campos de página.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La seguridad en tablas lógicas y meta4objects está definida por:",
+        "respuestas": [
+            {
+                "opcion": "MSRs de aplicación.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Filtros verticales y horizontales.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "MSR de desarrollo.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Roles de aplicación.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "El método de sistema LOAD_PRG llama a:",
+        "respuestas": [
+            {
+                "opcion": "PERSIST_TREE",
+                "isCorrect": false
+            },
+            {
+                "opcion": "MOVETO",
+                "isCorrect": false
+            },
+            {
+                "opcion": "ROOTLOAD",
+                "isCorrect": false
+            },
+            {
+                "opcion": "LOAD_BLK",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Supongamos que un concepto creado en un Meta4Object tiene 5 reglas: Rule1 que devuelve 1000, con Orden de Ejecución 10 y Prioridad Mínima, Rule2 que devuelve 2000, con Orden de Ejecución 20 y Prioridad Máxima, Rule3 que devuelve 3000, con Orden de Ejecución 30 y Prioridad Máxima, Rule4 que devuelve 4000, con Orden de Ejecución 40 y Prioridad Media Baja, Rule5 que devuelve 5000, con Orden de Ejecución 50 y Prioridad Mínima. ¿Qué valor devuelve el concepto?",
+        "respuestas": [
+            {
+                "opcion": "3000",
+                "isCorrect": true
+            },
+            {
+                "opcion": "1000",
+                "isCorrect": false
+            },
+            {
+                "opcion": "4000",
+                "isCorrect": false
+            },
+            {
+                "opcion": "10000",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los mapeos son redireccionamientos:",
+        "respuestas": [
+            {
+                "opcion": "De un meta4object origen a otro destino.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "De una presentación origen a otra destino.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Que hay que dar de alta en el explorador de proyectos, entorno de ejecución.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las respuestas son correctas.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Las Macros LN4 son:",
+        "respuestas": [
+            {
+                "opcion": "Estructuras de control del sistema",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Variables del sistema",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Constantes del sistema",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Todas las respuestas son verdaderas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Desde una tarea podemos lanzar:",
+        "respuestas": [
+            {
+                "opcion": "Presentaciones y Meta4Objects.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Menús.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Sentencias SQL.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Informes y Presentaciones.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "El lenguaje que se utiliza en la RAMDL para realizar operaciones con los objetos del repositorio se denomina:",
+        "respuestas": [
+            {
+                "opcion": "Lenguaje LN4",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Lenguaje RDL",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Lenguaje Basic",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Lenguaje OBL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuando activo una tabla lógica en el Diseñador de Modelo de Datos:",
+        "respuestas": [
+            {
+                "opcion": "Se genera un metadato en cualquier tabla",
+                "isCorrect": false
+            },
+            {
+                "opcion": "No se genera ningún metadato",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se genera un metadato en la tabla M4RDC_LOGIC_OBJECT",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Se genera un metadato en la tabla M4RDD_LOGIC_OBJECT",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La integridad referencial temporal consta de:",
+        "respuestas": [
+            {
+                "opcion": "Todas las respuestas son correctas",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Sin propiedades",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Validación de inclusión de Fecha de Inicio y Validación de inclusión de Periodo.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Completitud.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué conector permite realizar un desencadenador ó trigger?",
+        "respuestas": [
+            {
+                "opcion": "Registro-Bloque y Bloque-Bloque.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Libre.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Raiz-hijo y registro-bloque.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Bloque-Registro.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "El código OBL es utilizado en:",
+        "respuestas": [
+            {
+                "opcion": "Presentaciones",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Ramdl",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Meta4objects",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Tareas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Cuáles son las fases del ciclo de vida de un paquete RAM-DL?",
+        "respuestas": [
+            {
+                "opcion": "Creación del paquete en la base de datos origen y ejecución del paquete en destino.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Creación del paquete en la base de datos origen, carga en la base de datos destino, edición del paquete si es necesario y ejecución del paquete en destino.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Ninguna de las anteriores.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Creación del paquete en la base de datos destino, carga en la base de datos destino, edición del paquete si es necesario y ejecución del paquete en origen.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Los metadatos son registros que se generan en las tablas:",
+        "respuestas": [
+            {
+                "opcion": "Espejos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Auxiliares.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Funcionales.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Tecnológicas.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "La comunicación entre dos Meta4Objects se realiza mediante llamadas de:",
+        "respuestas": [
+            {
+                "opcion": "Nivel 0",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Nivel 3",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Nivel 1",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Nivel 2",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Seleccione la respuesta correcta acerca de la herramienta de Consulta:",
+        "respuestas": [
+            {
+                "opcion": "Permite crear fórmulas personalizadas mediante cálculos sencillos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Permite realizar informes de forma rápida.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Permite extraer datos de la base de datos, filtrados y ordenados.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las opciones son correctas.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "En el Diseñador de Meta4Object el editor de fórmulas, es utilizado por:",
+        "respuestas": [
+            {
+                "opcion": "Campos y propiedades.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Conceptos y métodos.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Conceptos y campos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Campos y métodos.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "En las estructuras de nodo utilizan reglas:",
+        "respuestas": [
+            {
+                "opcion": "Propiedades y métodos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Conceptos y métodos.",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Campos y métodos.",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Conceptos y propiedades.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los contenedores Fijos en un informe son:",
+        "respuestas": [
+            {
+                "opcion": "Header y Footer",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Before y After",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Prerecord y Record",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Record y Postrecord",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Aplicamos seguridad en Meta4objects a través de:",
+        "respuestas": [
+            {
+                "opcion": "Filtros dinámicos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Filtros estáticos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las respuestas son falsas",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Máscaras",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Qué se genera cuando se crea una consulta?",
+        "respuestas": [
+            {
+                "opcion": "Un meta4object",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Un informe",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Una presentación",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Una tarea",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Aplicamos seguridad en Meta4objects a través de:",
+        "respuestas": [
+            {
+                "opcion": "Filtros estáticos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Máscaras",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Todas las respuestas son falsas",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Filtros dinámicos",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Para realizar la codificación de métodos y conceptos se utiliza:",
+        "respuestas": [
+            {
+                "opcion": "El Editor de Sentencias",
+                "isCorrect": false
+            },
+            {
+                "opcion": "El Editor de Fórmulas",
+                "isCorrect": true
+            },
+            {
+                "opcion": "El Diseñador de Presentaciones",
+                "isCorrect": false
+            },
+            {
+                "opcion": "El Development Framework",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los menús se relacionan con:",
+        "respuestas": [
+            {
+                "opcion": "Presentaciones",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Meta4objects",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Tareas",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Cuando se hace clic en el botón de Guardar de cualquier presentación se ejecuta el método de sistema:",
+        "respuestas": [
+            {
+                "opcion": "ROOT_LOAD",
+                "isCorrect": false
+            },
+            {
+                "opcion": "LOAD_PRG",
+                "isCorrect": false
+            },
+            {
+                "opcion": "PERSIST_TREE",
+                "isCorrect": true
+            },
+            {
+                "opcion": "BEGIN",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "El autocierre automático es un automatismo que se aplica en la integridad referencial, cuando aplicamos:",
+        "respuestas": [
+            {
+                "opcion": "Validación de inclusión de fecha de inicio",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Validación de inclusión de periodo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Completitud",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Sin propiedades",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Un campo subrayado en el Diseñador de Modelo de Datos significa:",
+        "respuestas": [
+            {
+                "opcion": "Que es clave principal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Que es no nulo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Que es un campo de tipo traducido",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Que es un campo de tipo variant",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los meta4objects:",
+        "respuestas": [
+            {
+                "opcion": "Se encuentran en la capa de programación",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se encuentra entre la capa de datos lógica y la capa de presentación",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Son envueltos por la capa de seguridad",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Los informes:",
+        "respuestas": [
+            {
+                "opcion": "Se encuentran en la capa lógica",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se encuentran en la capa de presentación",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Se encuentran en la misma capa que las consultas",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Se encuentran en la capa de datos lógica",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La topología que tiene 2 capas se denomina:",
+        "respuestas": [
+            {
+                "opcion": "Topología de Producción",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Topología de Desarrollo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Topología Web",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Se denominan ítems ejecutables a:",
+        "respuestas": [
+            {
+                "opcion": "Conceptos y métodos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Campos y propiedades",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Los elementos que se encuentran definidos en las estructuras de nodo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Los elementos que se definen en el nodo.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Para ejecutar una tarea asociado a un evento de un botón de una presentación, se implementa con el:",
+        "respuestas": [
+            {
+                "opcion": "Action_method",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_call",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_message",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Action_bp",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "En las estructuras de nodo utilizan reglas:",
+        "respuestas": [
+            {
+                "opcion": "Campos y métodos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Propiedades y conceptos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Conceptos y métodos",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Propiedades y métodos",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Se puede ejecutar un script (*.sql) desde la RAMDL?",
+        "respuestas": [
+            {
+                "opcion": "No",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Sí, desde la herramienta del Gestor de Paquetes",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Sí, desde la herramienta Galactic Query",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Sí, desde la herramienta Galactic Query realizando ajustes de delimitadores",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Para cambiar la contraseña desde dentro de la aplicación accedo a:",
+        "respuestas": [
+            {
+                "opcion": "Opciones de sesión",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Opciones de aplicación",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Créditos",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Mapa",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Las presentaciones se codifican con código:",
+        "respuestas": [
+            {
+                "opcion": "OBL",
+                "isCorrect": true
+            },
+            {
+                "opcion": "LN4",
+                "isCorrect": false
+            },
+            {
+                "opcion": "DLL",
+                "isCorrect": false
+            },
+            {
+                "opcion": "SQL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "El script de creación que se genera en el Diseñador de Modelo de Datos cuando creas y modificas tablas lógicas, es un fichero con extensión:",
+        "respuestas": [
+            {
+                "opcion": "TXT",
+                "isCorrect": false
+            },
+            {
+                "opcion": "SQL",
+                "isCorrect": true
+            },
+            {
+                "opcion": "DOC",
+                "isCorrect": false
+            },
+            {
+                "opcion": "XLS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los conectores que se utilizan en los meta4objects pueden ser:",
+        "respuestas": [
+            {
+                "opcion": "Registro-Bloque",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Bloque-Bloque",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Libre",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Cuántos entornos tiene el Explorador de proyectos?",
+        "respuestas": [
+            {
+                "opcion": "2",
+                "isCorrect": true
+            },
+            {
+                "opcion": "3",
+                "isCorrect": false
+            },
+            {
+                "opcion": "4",
+                "isCorrect": false
+            },
+            {
+                "opcion": "5",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Para levantar o ejecutar una presentación necesito:",
+        "respuestas": [
+            {
+                "opcion": "Un meta4object",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Un menú",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Una tarea",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Un informe",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Para levantar un informe necesito:",
+        "respuestas": [
+            {
+                "opcion": "Un menú",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Una tarea",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Una tabla",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Un meta4object",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La integridad referencial en el diseñador de modelo de datos de PeopleNet puede ser:",
+        "respuestas": [
+            {
+                "opcion": "Estándar",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Temporal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Estándar y Temporal",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Todas las anteriores son falsas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los módulos principales del aplicativo son:",
+        "respuestas": [
+            {
+                "opcion": "Organización y Formación",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Organización y Nómina",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Nómina y Gestión de Personal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Gestión de Personal y Organización",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "La topología que tiene 2 capas se denomina:",
+        "respuestas": [
+            {
+                "opcion": "Topología de Producción",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Topología de Desarrollo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Topología Web",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "La relación entre una tabla padre y una tabla hija pertenece a:",
+        "respuestas": [
+            {
+                "opcion": "La tabla padre",
+                "isCorrect": false
+            },
+            {
+                "opcion": "La tabla hija",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Pertenece a las dos tablas",
+                "isCorrect": true
+            },
+            {
+                "opcion": "No pertenece a ninguna tabla",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Qué tipo de integridad referencial se puede crear entre una tabla eterna y otra temporal 1P?",
+        "respuestas": [
+            {
+                "opcion": "Solamente integridad estándar",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Solamente integridad temporal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Integridad estándar y temporal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "No se puede establecer integridad referencial entre ambas tablas",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "pregunta": "Borrado en cascada y validación obligatoria común se aplica en:",
+        "respuestas": [
+            {
+                "opcion": "La integridad temporal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "La integridad estándar",
+                "isCorrect": true
+            },
+            {
+                "opcion": "La integridad estándar y temporal",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Todas las anteriores son correctas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Los proyectos se crean en:",
+        "respuestas": [
+            {
+                "opcion": "Explorador de proyectos, entorno de ejecución",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Explorador de proyectos, entorno de desarrollo",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Barra de tareas del desarrollador",
+                "isCorrect": false
+            },
+            {
+                "opcion": "M4Conpar",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "pregunta": "Para crear una tabla física a partir de una lógica se siguen los siguientes pasos:",
+        "respuestas": [
+            {
+                "opcion": "Activación de la tabla lógica solamente",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Activar tabla lógica y crear script",
+                "isCorrect": false
+            },
+            {
+                "opcion": "Crear script y lanzar script sobre el SGBD correspondiente",
+                "isCorrect": true
+            },
+            {
+                "opcion": "Todas las anteriores son incorrectas",
+                "isCorrect": false
+            }
+        ]
+    }
+]
